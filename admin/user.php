@@ -123,7 +123,7 @@ function print_data(page=1){
 					out+='<div class="card w3-hover-shadow">';
 						out+='<div class="card-content row w3-padding-small">';
 				  			out+='<div class="col s8">';
-				  				out+='<a class="'+get_color(arr["user"][i]["status"])+'" href="user_detail?id='+arr["user"][i]["user_id"]+'"><h5>'+arr["user"][i]["username"]+'</h5></a>';
+				  				out+='<a class="'+get_color(arr["user"][i]["status"])+'" href="user_detail.php?id='+arr["user"][i]["user_id"]+'"><h5>'+arr["user"][i]["username"]+'</h5></a>';
 				  			out+='</div>';
 				  			out+='<div class="col s4 w3-right-align">';
 				  				out+='<h5><i class="fa fa-inr"></i> '+arr["user"][i]["amount"]+'</h5>';
